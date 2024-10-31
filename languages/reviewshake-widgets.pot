@@ -1,0 +1,554 @@
+# Copyright (C) 2021 Reviewshake_Widgets
+# This file is distributed under the same license as the Reviewshake_Widgets package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Reviewshake_Widgets\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: reviewshake-widgets.php:194
+msgid "Settings"
+msgstr ""
+
+#: includes/class-reviewshake-widgets-widget.php:58
+msgid "Add customizable widgets to showcase reviews from Google, Facebook, Yelp and 80+ other websites"
+msgstr ""
+
+#: includes/class-reviewshake-widgets-widget.php:61
+msgid "Reviewshake - Reviews Widget."
+msgstr ""
+
+#. translators: 1) string URL to setup displayed widget 2) string URL to create a new widget.
+#: includes/class-reviewshake-widgets-widget.php:123
+msgid "Widget is not found. Go to <a href=\"%1$s\">Widgets</a> to select a Reviewshake widget, or go to <a href=\"%2$s\">Setup</a> to create a new one."
+msgstr ""
+
+#. translators: %s: URL to create a new widget.
+#: includes/class-reviewshake-widgets-widget.php:177
+msgid "No widgets have been created yet. Go to <a href=\"%s\">Setup</a> page to create widgets."
+msgstr ""
+
+#: includes/class-reviewshake-widgets-widget.php:162
+msgid "Choose a widget from the list"
+msgstr ""
+
+#: includes/class-reviewshake-widgets-widget.php:164
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: includes/functions.php:194
+msgid "Invalid account domain!"
+msgstr ""
+
+#: includes/functions.php:531
+msgid "Invalid widget ID!"
+msgstr ""
+
+#: includes/functions.php:534
+msgid "The current widget is not found!"
+msgstr ""
+
+#: includes/functions.php:632
+msgid "Review source not found!"
+msgstr ""
+
+#: includes/functions.php:635
+msgid "This Review source is not found in the database!"
+msgstr ""
+
+#: includes/functions.php:670
+msgid "Invalid Widget ID"
+msgstr ""
+
+#: includes/functions.php:673
+msgid "This Widget is not found on the database."
+msgstr ""
+
+#: includes/admin/class-reviewshake-widgets-admin-ajax.php:46, includes/admin/class-reviewshake-widgets-admin-ajax.php:84, includes/admin/class-reviewshake-widgets-admin-ajax.php:119
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: includes/admin/class-reviewshake-widgets-admin-ajax.php:55
+msgid "Something went wrong! Cannot get the edit widget form"
+msgstr ""
+
+#: includes/admin/class-reviewshake-widgets-admin-ajax.php:91
+msgid "Something went wrong! Cannot get the create review source form"
+msgstr ""
+
+#: includes/admin/class-reviewshake-widgets-admin-assets.php:100
+msgid "This field is required!"
+msgstr ""
+
+#: includes/admin/class-reviewshake-widgets-admin-assets.php:101
+msgid "Business Name"
+msgstr ""
+
+#: includes/admin/class-reviewshake-widgets-admin-assets.php:102
+msgid "No places found"
+msgstr ""
+
+#: includes/admin/class-reviewshake-widgets-admin-assets.php:104, includes/rest-api/class-reviewshake-widgets-rest-review-sources-controller.php:339, includes/rest-api/class-reviewshake-widgets-rest-review-sources-controller.php:354, templates/admin/views/add-review-source.php:37
+msgid "Review Source"
+msgstr ""
+
+#: includes/admin/class-reviewshake-widgets-admin-assets.php:105
+msgid "Your review source has been added. We are currently fetching the reviews."
+msgstr ""
+
+#: includes/admin/class-reviewshake-widgets-admin-assets.php:107
+msgid "Are you sure to delete this item"
+msgstr ""
+
+#: includes/admin/class-reviewshake-widgets-admin-assets.php:108
+msgid "Are you sure? This will overwrite the existing review sources and widgets"
+msgstr ""
+
+#. translators: 1) int version 2) int version
+#: includes/admin/class-reviewshake-widgets-admin-notices.php:104
+msgid "Reviewshake Widgets - The minimum PHP version required for this plugin is %1$s. You are running %2$s."
+msgstr ""
+
+#. translators: 1) int version 2) int version
+#: includes/admin/class-reviewshake-widgets-admin-notices.php:114
+msgid "Reviewshake Widgets - The minimum WordPress version required for this plugin is %1$s. You are running %2$s."
+msgstr ""
+
+#: includes/admin/class-reviewshake-widgets-admin-notices.php:130
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: includes/admin/class-reviewshake-widgets-admin-settings.php:44, includes/admin/class-reviewshake-widgets-admin-settings.php:45
+msgid "Reviewshake"
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-account-controller.php:185, includes/rest-api/class-reviewshake-widgets-rest-account-controller.php:303, includes/rest-api/class-reviewshake-widgets-rest-account-controller.php:403, includes/rest-api/class-reviewshake-widgets-rest-account-controller.php:502, includes/rest-api/class-reviewshake-widgets-rest-review-sources-controller.php:158, includes/rest-api/class-reviewshake-widgets-rest-review-sources-controller.php:251, includes/rest-api/class-reviewshake-widgets-rest-review-sources-controller.php:335, includes/rest-api/class-reviewshake-widgets-rest-review-sources-controller.php:350, includes/rest-api/class-reviewshake-widgets-rest-widgets-controller.php:176, includes/rest-api/class-reviewshake-widgets-rest-widgets-controller.php:252, includes/rest-api/class-reviewshake-widgets-rest-widgets-controller.php:389, includes/rest-api/class-reviewshake-widgets-rest-widgets-controller.php:480
+msgid "Something went wrong!"
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-account-controller.php:189
+msgid "Create Account"
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-account-controller.php:222
+msgid "Save Account"
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-account-controller.php:225
+msgid "Something went wrong during saving account to database!"
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-account-controller.php:294, includes/rest-api/class-reviewshake-widgets-rest-account-controller.php:307
+msgid "Get Account Status"
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-account-controller.php:378, includes/rest-api/class-reviewshake-widgets-rest-account-controller.php:389
+msgid "Account Status"
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-account-controller.php:381
+msgid "Invalid account domain"
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-account-controller.php:392
+msgid "Invalid API key"
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-account-controller.php:407
+msgid "Account Info"
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-account-controller.php:506
+msgid "Free Plan"
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-account-controller.php:624, includes/rest-api/class-reviewshake-widgets-rest-account-controller.php:665
+msgid "Email address for the object account."
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-account-controller.php:630, includes/rest-api/class-reviewshake-widgets-rest-account-controller.php:671
+msgid "The primary password for the object account. Only available after creating the account."
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-account-controller.php:637, includes/rest-api/class-reviewshake-widgets-rest-account-controller.php:677, includes/rest-api/class-reviewshake-widgets-rest-review-sources-controller.php:591, includes/rest-api/class-reviewshake-widgets-rest-widgets-controller.php:658
+msgid "The Reviewshake account subdomain."
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-account-controller.php:643, includes/rest-api/class-reviewshake-widgets-rest-account-controller.php:682, includes/rest-api/class-reviewshake-widgets-rest-review-sources-controller.php:598, includes/rest-api/class-reviewshake-widgets-rest-review-sources-controller.php:654, includes/rest-api/class-reviewshake-widgets-rest-widgets-controller.php:665, includes/rest-api/class-reviewshake-widgets-rest-widgets-controller.php:701
+msgid "The Reviewshake account API key."
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-review-sources-controller.php:141, includes/rest-api/class-reviewshake-widgets-rest-review-sources-controller.php:162, templates/admin/settings-setup.php:31
+msgid "Review Sources"
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-review-sources-controller.php:144, includes/rest-api/class-reviewshake-widgets-rest-widgets-controller.php:162
+msgid "Account domain and/or API Key doesnot exists!"
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-review-sources-controller.php:255, includes/rest-api/class-reviewshake-widgets-rest-review-sources-controller.php:409, includes/rest-api/class-reviewshake-widgets-rest-review-sources-controller.php:423, includes/rest-api/class-reviewshake-widgets-rest-review-sources-controller.php:437
+msgid "Add Review Source"
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-review-sources-controller.php:321
+msgid "Invalid Review Source"
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-review-sources-controller.php:324
+msgid "Invalid Review Source ID"
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-review-sources-controller.php:412
+msgid "Source name is required!"
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-review-sources-controller.php:426
+msgid "Source URL is required and cannot be blank!"
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-review-sources-controller.php:440
+msgid "Google Place ID is required and cannot be blank!"
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-review-sources-controller.php:605, includes/rest-api/class-reviewshake-widgets-rest-review-sources-controller.php:663
+msgid "The Reviewshake review source name."
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-review-sources-controller.php:611, includes/rest-api/class-reviewshake-widgets-rest-review-sources-controller.php:671
+msgid "The Reviewshake review source URL."
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-review-sources-controller.php:617, includes/rest-api/class-reviewshake-widgets-rest-review-sources-controller.php:679
+msgid "The Reviewshake google review source ID."
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-review-sources-controller.php:640
+msgid "Unique identifier for the review source."
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-review-sources-controller.php:645, includes/rest-api/class-reviewshake-widgets-rest-widgets-controller.php:693
+msgid "The Reviewshake account domain."
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-widgets-controller.php:159, includes/rest-api/class-reviewshake-widgets-rest-widgets-controller.php:180
+msgid "List Widgets"
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-widgets-controller.php:254
+msgid "Something went wrong on create widget!"
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-widgets-controller.php:262, includes/rest-api/class-reviewshake-widgets-rest-widgets-controller.php:287, includes/rest-api/class-reviewshake-widgets-rest-widgets-controller.php:605, includes/rest-api/class-reviewshake-widgets-rest-widgets-controller.php:619
+msgid "Create Widget"
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-widgets-controller.php:265
+msgid "Something went wrong! The widget ID and/or embed code is invalid."
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-widgets-controller.php:290
+msgid "Something went wrong! The widget cannot be saved to database!"
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-widgets-controller.php:331
+msgid "Invalid widget ID."
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-widgets-controller.php:334
+msgid "The current widget is not found on your account!"
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-widgets-controller.php:391
+msgid "Something went wrong on update widget!"
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-widgets-controller.php:417
+msgid "Save Widget"
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-widgets-controller.php:420
+msgid "Something went wrong while saving widget, please try again later."
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-widgets-controller.php:466, includes/rest-api/class-reviewshake-widgets-rest-widgets-controller.php:484
+msgid "Delete Widget"
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-widgets-controller.php:469
+msgid "Something went wrong! Invalid Widget ID."
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-widgets-controller.php:608
+msgid "Widget Name is a required field!"
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-widgets-controller.php:622
+msgid "Widget Type is a required field and cannot be blank"
+msgstr ""
+
+#: includes/rest-api/class-reviewshake-widgets-rest-widgets-controller.php:688
+msgid "Unique identifier for the widget."
+msgstr ""
+
+#: templates/admin/settings-account.php:27, templates/admin/settings.php:41
+msgid "Reviewshake Account"
+msgstr ""
+
+#: templates/admin/settings-setup.php:32
+msgid "Add your first review source to get going!"
+msgstr ""
+
+#: templates/admin/settings-setup.php:32
+msgid "You can choose from 80+ review sources."
+msgstr ""
+
+#: templates/admin/settings.php:40
+msgid "Setup"
+msgstr ""
+
+#: templates/admin/views/account-details.php:24
+msgid "You are connected to Reviewshake:"
+msgstr ""
+
+#: templates/admin/views/account-details.php:28, templates/admin/views/connect-account-form.php:24
+msgid "Subdomain"
+msgstr ""
+
+#: templates/admin/views/account-details.php:38
+msgid "Plan"
+msgstr ""
+
+#: templates/admin/views/account-details.php:47
+msgid "Unlimited"
+msgstr ""
+
+#: templates/admin/views/account-details.php:47
+msgid "review sources"
+msgstr ""
+
+#: templates/admin/views/account-details.php:52
+msgid "Upgrade"
+msgstr ""
+
+#: templates/admin/views/account-details.php:63, templates/admin/views/claim-account.php:43
+msgid "Setup Review Sources and Widgets"
+msgstr ""
+
+#: templates/admin/views/account-details.php:69
+msgid "Connect another account"
+msgstr ""
+
+#: templates/admin/views/add-review-source.php:57
+msgid "Add"
+msgstr ""
+
+#: templates/admin/views/claim-account.php:20
+msgid "Claim your free account on Reviewshake. This will allow you to add 2 review sources. You can upgrade to a paid plan if you need more review sources by accessing Configurations -> Billing."
+msgstr ""
+
+#: templates/admin/views/claim-account.php:26
+msgid "Claim Reviewshake Account"
+msgstr ""
+
+#: templates/admin/views/claim-account.php:30
+msgid "Connect existing account"
+msgstr ""
+
+#: templates/admin/views/claim-account.php:38
+msgid "Claiming account in progress"
+msgstr ""
+
+#: templates/admin/views/connect-account-form.php:17
+msgid "Connect your existing Reviewshake account"
+msgstr ""
+
+#: templates/admin/views/connect-account-form.php:33
+msgid "API key"
+msgstr ""
+
+#: templates/admin/views/connect-account-form.php:43
+msgid "Connect"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:20
+msgid "Slider"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:21
+msgid "Carousel"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:22
+msgid "Grid"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:23
+msgid "List"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:24
+msgid "Quote"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:31
+msgid "Summary"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:32
+msgid "Review"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:33
+msgid "Summary & Review"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:43
+msgid "English"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:44
+msgid "Danish"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:45
+msgid "French"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:46
+msgid "German"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:47
+msgid "Spanish"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:48
+msgid "Dutch"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:55
+msgid "Regular"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:56
+msgid "Bold"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:68
+msgid "Create new widget"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:68
+msgid "Edit widget details:"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:75
+msgid "Name"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:84
+msgid "Type"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:97
+msgid "Content"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:110
+msgid "Minimum Star Rating"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:125
+msgid "Maximum Reviews"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:134
+msgid "Language"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:151
+msgid "Appearance"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:156
+msgid "Background Color"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:165
+msgid "Review Background Color"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:174
+msgid "Text Color"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:183
+msgid "Links Color"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:192
+msgid "Font Size"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:201
+msgid "Font Weight"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:215
+msgid "Save and Preview Widget"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:216
+msgid "Finish"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:219
+msgid "Cancel"
+msgstr ""
+
+#: templates/admin/views/create-edit-widget.php:226
+msgid "Preview"
+msgstr ""
+
+#: templates/admin/views/loader.php:16
+msgid "We are setting up your first review source. This could take up to 30 seconds."
+msgstr ""
+
+#: templates/admin/views/review-sources.php:31, templates/admin/views/widgets.php:42
+msgid "Delete"
+msgstr ""
+
+#: templates/admin/views/upgrade-account.php:24
+msgid "Want to add more sources?"
+msgstr ""
+
+#: templates/admin/views/upgrade-account.php:36
+msgid "Connect your Reviewshake account"
+msgstr ""
+
+#: templates/admin/views/upgrade-account.php:31
+msgid "Upgrade your Reviewshake account"
+msgstr ""
+
+#: templates/admin/views/widgets.php:19
+msgid "Widgets"
+msgstr ""
+
+#: templates/admin/views/widgets.php:22
+msgid "Add a widget to your site?"
+msgstr ""
+
+#: templates/admin/views/widgets.php:41
+msgid "Edit"
+msgstr ""
+
+#: templates/admin/views/widgets.php:53
+msgid "Add new widget"
+msgstr ""
